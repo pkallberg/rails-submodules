@@ -1,0 +1,14 @@
+---
+services:
+
+  web:
+    git: git@github.com:pkallberg/rails-submodules.git
+    git_branch: master
+    command: bundle exec rails s _env:$RAILS_ENV
+    ports: 
+      - 3000:80:443
+    env_vars:
+      RAILS_ENV: production
+      RACK_ENV: production
+
+databases:
