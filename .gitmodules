@@ -1,3 +1,4 @@
 [submodule "vendor/twbs"]
 	path = vendor/twbs
 	url = git@github.com:pkallberg/bootstrap.git
+        branch = master
